@@ -1,0 +1,1632 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+html {
+    font-size: calc(100vw /7.2);
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+body {
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.war {
+    height: 100%;
+    overflow: hidden;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    background-image: url(..//qietu/nbg.jpg);
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+
+}
+
+.san {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+
+}
+
+.disan {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+
+
+
+}
+
+/* 下降动画 */
+.xiajiang {
+    top: 8rem;
+    transition: all 2s linear;
+
+}
+
+.shan1 {
+    width: 7.2rem;
+    height: 1.31rem;
+    position: absolute;
+    bottom: 6.64rem;
+    animation: one 2000ms linear;
+}
+
+.shan1>img {
+    width: 100%;
+}
+
+.yun_bg1 {
+    width: 7.2rem;
+    position: absolute;
+    bottom: 2.63rem;
+    left: 0;
+    animation: one 2000ms linear;
+}
+
+.yun_bg1>img {
+    width: 100%;
+}
+
+.yun_bg2 {
+    position: absolute;
+    bottom: -0.19rem;
+    z-index: 36;
+    animation: one 2000ms linear;
+
+}
+
+.yun_bg2>img {
+    width: 7.2rem;
+    height: 2.4rem;
+}
+
+.yun_bg3 {
+    position: absolute;
+    bottom: -0.31rem;
+    left: 0;
+    animation: one 2000ms linear;
+}
+
+.yun_bg3>img {
+    width: 7.2rem;
+    height: 5.74rem;
+}
+
+.zhuzi {
+    position: absolute;
+    bottom: 1.51rem;
+    right: 0.12rem;
+}
+
+.zhuzi>img {
+    width: 1.5rem;
+
+}
+
+.sanjiao {
+    position: absolute;
+    bottom: 0rem;
+    left: 2.59rem;
+    z-index: 200;
+}
+
+.sanjiao>img {
+    width: 2rem;
+}
+
+.z_02 {
+    position: absolute;
+    bottom: -3.178rem;
+    left: 2.6rem;
+    z-index: 40;
+    animation: z02 linear 4s;
+
+
+
+}
+
+.zhuzi1 {
+    transform: translateY(8rem);
+}
+
+.move {
+    animation: wumove linear 2s forwards;
+}
+
+@keyframes wumove {
+    0% {
+        transform: translateY(8rem);
+    }
+
+    50% {
+        transform: translateY(-0.5rem);
+
+    }
+
+    100% {
+        transform: translate(0);
+    }
+
+}
+
+.diyi {
+    transform: translateY(8rem);
+    animation: wumove linear 1500ms forwards;
+}
+
+.z_02>img {
+    width: 1rem;
+}
+
+.z_03 {
+    position: absolute;
+    bottom: -2.89rem;
+    left: 2.11rem;
+    z-index: 39;
+
+}
+
+.z_03>img {
+    width: 1rem;
+}
+
+.z_04 {
+    position: absolute;
+    bottom: -3.3365rem;
+    left: 1.62rem;
+    z-index: 38;
+
+}
+
+.z_04>img {
+    width: 2rem;
+}
+
+.z_06 {
+    position: absolute;
+    bottom: -0.29666688rem;
+    left: 1.3650rem;
+    z-index: 37;
+
+}
+
+.z_06>img {
+    width: 1.76rem;
+}
+
+.z_07 {
+    position: absolute;
+    bottom: 0.415rem;
+    left: 0.126rem;
+    z-index: 36;
+
+}
+
+.z_07>img {
+    width: 1.76rem;
+    height: 3.02rem;
+
+}
+
+.z_08 {
+    position: absolute;
+    bottom: -0.03rem;
+    left: 0.85rem;
+    z-index: 35;
+
+}
+
+.z_08>img {
+    width: 1rem;
+    height: 4.21rem;
+
+}
+
+.z_09 {
+    position: absolute;
+    bottom: 0.72rem;
+    left: 1.35rem;
+    z-index: 34;
+
+}
+
+.z_09>img {
+    width: 1rem;
+    height: 3.75rem;
+
+}
+
+.z_11 {
+    position: absolute;
+    bottom: 1.451rem;
+    left: 0.85rem;
+    z-index: 33;
+
+}
+
+.z_11>img {
+    width: 1.26rem;
+    height: 3.45rem;
+
+}
+
+.z_19 {
+    position: absolute;
+    bottom: 1.88rem;
+    left: 1.591rem;
+    z-index: 32;
+
+}
+
+.z_19>img {
+    width: 1.26rem;
+    height: 3.45rem;
+
+}
+
+.z_20 {
+    position: absolute;
+    bottom: 1.88rem;
+    left: 0.35rem;
+    z-index: 31;
+
+}
+
+.z20 {
+    animation: columns 2s linear forwards;
+}
+
+.z_20>img {
+    width: 1rem;
+    height: 3.46rem;
+
+}
+
+
+
+@keyframes columns {
+    0% {
+        transform: translateY(8rem);
+    }
+
+    80% {
+        transform: translateY(-.5rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+
+.phone {
+    position: absolute;
+    bottom: 13.3rem;
+    left: 0.55rem;
+    z-index: 33;
+
+}
+
+.phone>img {
+    width: 0.68rem;
+    height: 0.66rem;
+}
+
+.dh {
+    animation: dh1 2s linear infinite;
+}
+
+@keyframes dh1 {
+    0% {
+        transform: translateY(8rem);
+    }
+
+    50% {
+        transform: translateY(7.8rem);
+    }
+
+    100% {
+        transform: translateY(8rem);
+    }
+
+}
+
+.z_25 {
+    position: absolute;
+    bottom: 2.301rem;
+    left: 2.331rem;
+    z-index: 29;
+
+}
+
+.z_25>img {
+    width: 1.26rem;
+    height: 3.45rem;
+
+}
+
+.z_26 {
+    position: absolute;
+    bottom: 2.7325rem;
+    left: 3.076rem;
+    z-index: 28;
+
+}
+
+.z_26>img {
+    width: 1.26rem;
+    height: 3.45rem;
+
+}
+
+.z_15 {
+    position: absolute;
+    bottom: 2.714rem;
+    left: 3.825rem;
+    z-index: 27;
+
+}
+
+.z_15>img {
+    width: 1rem;
+    height: 3.75rem;
+
+}
+
+.twg {
+    position: absolute;
+    z-index: 26;
+    bottom: 2.1rem;
+    left: 1.19rem;
+}
+
+.twg>img {
+    width: 2.5rem;
+    height: 5.71rem;
+}
+
+.z_28 {
+    position: absolute;
+    z-index: 27;
+    bottom: 4.738rem;
+    left: 4.3232rem;
+}
+
+.z_28>img {
+    width: 1rem;
+    height: 1.45rem;
+}
+
+.z_33 {
+    position: absolute;
+    bottom: 3.585rem;
+    right: 1.8535rem;
+    z-index: 25;
+
+}
+
+.z_33>img {
+    width: 1rem;
+    height: 3.46rem;
+
+}
+
+.wifi {
+    position: absolute;
+    bottom: 14.91rem;
+    left: 4.47rem;
+    z-index: 26;
+}
+
+.wifi>img {
+    width: 0.82rem;
+    height: 0.73rem;
+}
+
+.z_24 {
+    position: absolute;
+    bottom: 0;
+    left: 3.85rem;
+    z-index: 28;
+
+}
+
+.z_24>img {
+    width: 2rem;
+    height: 5.34rem;
+
+}
+
+.z_22 {
+    position: absolute;
+    bottom: 0.446rem;
+    left: 4.355rem;
+    z-index: 29;
+
+
+}
+
+.z_22>img {
+    width: 1rem;
+    height: 4.04rem;
+}
+
+.z_23 {
+    position: absolute;
+    bottom: 0.16rem;
+    left: 4.8435rem;
+    z-index: 30;
+
+
+}
+
+.z_23>img {
+    width: 1rem;
+    height: 4.04rem;
+}
+
+.z_30 {
+    position: absolute;
+    bottom: 0.165rem;
+    left: 5.34rem;
+    z-index: 31;
+
+}
+
+.z_30>img {
+    width: 1rem;
+    height: 3.75rem;
+}
+
+.z_17 {
+    position: absolute;
+    bottom: 0.26rem;
+    right: 0.11rem;
+
+
+}
+
+.z_17>img {
+    width: 1.26rem;
+    height: 4.21rem;
+}
+
+.jinbi {
+    position: absolute;
+    bottom: 12.26rem;
+    right: 0.53rem;
+
+
+}
+
+.jinbi>img {
+    width: 0.6rem;
+    height: 0.84rem;
+}
+
+.z_13 {
+    position: absolute;
+    z-index: 32;
+    bottom: 2.81rem;
+    right: 1.34rem;
+}
+
+.z_13>img {
+    width: 0.76rem;
+    height: 0.8rem;
+}
+
+.z_27 {
+    position: absolute;
+    bottom: -0.27rem;
+    right: 1.58rem;
+    z-index: 33;
+
+}
+
+.z_27>img {
+    width: 1.26rem;
+    height: 3.45rem;
+
+}
+
+.z_10 {
+    position: absolute;
+    bottom: 0.17rem;
+    right: 2.328rem;
+    z-index: 34;
+
+}
+
+.z_10>img {
+    width: 1.26rem;
+    height: 3.02rem;
+}
+
+.z_12 {
+    position: absolute;
+    bottom: -1.81rem;
+    left: 3.12rem;
+    z-index: 33;
+
+}
+
+.z_12>img {
+    width: 1rem;
+    height: 5.27rem;
+}
+
+.mtl1 {
+    width: 1.63rem;
+    height: 4.61rem;
+    position: absolute;
+    bottom: 0.65rem;
+    left: 2.1rem;
+    z-index: 32;
+}
+
+.mtl {
+    width: 1.63rem;
+    height: 4.61rem;
+    position: absolute;
+    /* bottom: 0.65rem;
+    left: 2.1rem; */
+    z-index: 32;
+    background-image: url(../qietu/z18-c.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: z1 350ms linear infinite;
+
+}
+
+@keyframes z1 {
+    0% {
+        background-image: url(../qietu/z18-c.png);
+    }
+
+    33.3% {
+        background-image: url(../qietu/z18-a.png);
+    }
+
+    66.6% {
+        background-image: url(../qietu/z18-b.png);
+    }
+
+    100% {
+        background-image: url(../qietu/z18-c.png);
+    }
+}
+
+/* .mtl>img{
+    width: 1.63rem;
+    height: 4.61rem;
+} */
+.z_14 {
+    position: absolute;
+    bottom: -0.46rem;
+    left: 6.59rem;
+}
+
+.z_14>img {
+    width: 1rem;
+    height: 3.2rem;
+}
+
+.top {
+    width: 100%;
+    height: 4.65rem;
+    background-image: url(../top.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0.4rem;
+    display: none;
+
+}
+
+.top>p {
+    font-size: 0.32rem;
+    /* font-weight: bold; */
+    color: white;
+    position: absolute;
+    left: 1.42rem;
+    top: 1.1rem;
+
+}
+
+.top>.p1>span {
+    font-size: 0.3rem;
+    margin-left: 0.1rem;
+    position: absolute;
+    top: 0.06rem;
+
+}
+
+.top>.top_bg {
+    position: absolute;
+    top: 1.82rem;
+    left: 1.9rem;
+    color: white;
+}
+
+.top>.top_bg>img {
+    width: 0.76rem;
+    height: 0.76rem;
+}
+
+.top>.p2 {
+    position: absolute;
+    font-size: 0.28rem;
+    color: white;
+    left: 3.19rem;
+    top: 1.75rem;
+
+}
+
+.top>.p3 {
+    position: absolute;
+    font-size: 0.22rem;
+    color: white;
+    top: 3.11rem;
+    left: 3.62rem;
+}
+
+.top2 {
+    width: 100%;
+    height: 4.65rem;
+    background-image: url(../top.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0.4rem;
+    display: block;
+}
+
+.top2>.p1 {
+    font-size: 0.27rem;
+    /* font-weight: bold; */
+    color: white;
+    position: absolute;
+    left: 1.42rem;
+    top: 1.1rem;
+
+}
+
+.top2>.p2 {
+    font-size: 0.18rem;
+    color: white;
+    position: absolute;
+    left: 3.57rem;
+    top: 2.4rem;
+}
+
+.top3 {
+    width: 100%;
+    height: 4.65rem;
+    background-image: url(../top.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0.4rem;
+    display: none;
+}
+
+.top3 img {
+    width: 0.76rem;
+    height: 0.76rem;
+    position: absolute;
+    left: 1.3rem;
+    top: 1.27rem;
+}
+
+.top3 span {
+    font-size: 0.26rem;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 1.21rem;
+    left: 2.29rem;
+}
+
+.top3 p {
+    font-size: 0.23rem;
+    color: white;
+    position: absolute;
+    left: 1.17rem;
+    top: 2.21rem;
+}
+
+.top4 {
+    width: 100%;
+    height: 4.65rem;
+    background-image: url(../top.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0.4rem;
+    display: none;
+}
+
+.top4 .p1 {
+    font-size: 0.26rem;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 1.08rem;
+    left: 1.27rem;
+}
+
+.top4 .p2 {
+    font-size: 0.22rem;
+    color: white;
+    position: absolute;
+    left: 1.27rem;
+    top: 2.44rem;
+}
+
+
+
+
+
+.gz {
+    width: 0.7rem;
+    height: 1rem;
+    position: absolute;
+    z-index: 201;
+    bottom: 0.12rem;
+    left: 3.28rem;
+    /* background-image: url(../gezi/gz01.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+/* .gz>img{
+    width: 0.7rem;
+    height: 1rem;
+} */
+.active {
+    animation: wu 2000ms linear,
+        wu1 1191ms 2000ms linear,
+        wu2 3328ms 3191ms linear,
+        wu3 1762ms 6519ms linear forwards;
+}
+
+.active2 {
+    animation: wu4 497ms linear,
+        wu5 3991ms 497ms linear forwards;
+}
+
+.active3 {
+    animation: wu6 1842ms linear,
+        wu7 1515ms 1842ms linear,
+        wu8 1817ms 3357ms linear forwards;
+}
+
+.active4 {
+    animation: wu9 945ms linear,
+        wu10 1818ms 945ms linear,
+        wu11 1216ms 2763ms linear forwards;
+}
+
+@keyframes wu {
+    from {
+        bottom: 0.12rem;
+        left: 3.28rem;
+    }
+
+    to {
+        bottom: 0.95rem;
+        left: 1.85rem;
+    }
+}
+
+@keyframes wu1 {
+    from {
+        bottom: 0.95rem;
+        left: 1.85rem;
+    }
+
+    to {
+        bottom: 1.5rem;
+        left: 2.7rem;
+
+    }
+}
+
+@keyframes wu2 {
+    from {
+        bottom: 1.5rem;
+        left: 2.7rem;
+    }
+
+    to {
+        bottom: 3rem;
+        left: 0.4rem;
+
+
+    }
+}
+
+@keyframes wu3 {
+    from {
+        bottom: 3rem;
+        left: 0.4rem;
+    }
+
+    to {
+        bottom: 3.95rem;
+        left: 1.5rem;
+
+
+    }
+}
+
+@keyframes wu4 {
+    from {
+        bottom: 3.95rem;
+        left: 1.5rem;
+    }
+
+    to {
+        bottom: 4.35rem;
+        left: 1.1rem;
+
+
+    }
+}
+
+@keyframes wu5 {
+    from {
+        bottom: 4.35rem;
+        left: 1.1rem;
+
+    }
+
+    to {
+        bottom: 6rem;
+        left: 3.95rem;
+
+    }
+}
+
+@keyframes wu6 {
+    from {
+        bottom: 6rem;
+        left: 3.95rem;
+
+    }
+
+    to {
+        bottom: 4.9rem;
+        left: 5rem;
+
+    }
+}
+
+@keyframes wu7 {
+    from {
+        bottom: 4.9rem;
+        left: 5rem;
+
+    }
+
+    to {
+        bottom: 4.3rem;
+        left: 3.9rem;
+
+    }
+}
+
+@keyframes wu8 {
+    from {
+        bottom: 4.3rem;
+        left: 3.9rem;
+
+    }
+
+    to {
+        bottom: 3.4rem;
+        left: 5.5rem;
+
+    }
+}
+
+@keyframes wu9 {
+    from {
+        bottom: 3.4rem;
+        left: 5.5rem;
+
+    }
+
+    to {
+        bottom: 2.8rem;
+        left: 5rem;
+
+    }
+}
+
+@keyframes wu10 {
+    from {
+        bottom: 2.8rem;
+        left: 5rem;
+
+    }
+
+    to {
+        bottom: 2.3rem;
+        left: 4rem;
+
+    }
+}
+
+@keyframes wu11 {
+    from {
+        bottom: 2.3rem;
+        left: 4rem;
+
+
+    }
+
+    to {
+        bottom: 3rem;
+        left: 3.28rem;
+
+    }
+}
+
+/* 光圈 */
+.gq {
+    position: absolute;
+    width: 0.3rem;
+    height: 0.3rem;
+    border: 0.001rem solid white;
+    border-radius: 50%;
+    bottom: 4.05rem;
+    left: 1.7rem;
+    z-index: 60;
+    animation: gq 2000ms linear infinite;
+    display: none;
+}
+
+.gq2,
+.gq3,
+.gq4 {
+    position: absolute;
+    width: 0.3rem;
+    height: 0.3rem;
+    border: 0.001rem solid white;
+    border-radius: 50%;
+    bottom: 6rem;
+    left: 4.15rem;
+    z-index: 60;
+    animation: gq 2000ms linear infinite;
+    display: none;
+
+}
+
+.gq3 {
+
+    bottom: 3.5rem;
+    left: 5.65rem;
+}
+
+.gq4 {
+
+    bottom: 3rem;
+    left: 3.45rem;
+}
+
+@keyframes gq {
+    0% {
+        transform: scale(0.5);
+    }
+
+    25% {
+        transform: scale(2);
+    }
+
+    50% {
+        transform: scale(2.5);
+
+    }
+
+    75% {
+        transform: scale(2);
+    }
+
+    100% {
+        transform: scale(0.5);
+
+    }
+
+}
+
+.qipao {
+    width: 0.93rem;
+    height: 0.59rem;
+    background-image: url(../daochu/q.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 1rem;
+    left: 3.8rem;
+    z-index: 40;
+    font-size: 0.15rem;
+    padding: 0.1rem 0.1rem;
+    display: none;
+
+
+}
+
+
+
+
+.two {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+/* 第一个页面 */
+.one {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    animation: one 7000ms linear;
+}
+
+.top1 {
+    width: 100%;
+    height: 4.65rem;
+    background-image: url(../top.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0.4rem;
+    animation: tdh 2s linear;
+
+}
+
+@keyframes tdh {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.top1>.p3 {
+    position: absolute;
+    font-size: 0.36rem;
+    color: white;
+    left: 1.92rem;
+    top: 1.33rem;
+    text-align: center;
+    animation: tdh 2s linear;
+}
+
+.top1>.p3>span {
+    padding-left: 0.35rem;
+
+
+}
+
+.top1>.p4 {
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 1.92rem;
+    top: 1.87rem;
+    animation: tdh 4s linear;
+}
+
+.top1>.p4>span {
+    padding-left: 0.26rem;
+
+}
+
+.gezi {
+    animation: gezi linear 1500ms forwards;
+}
+
+@keyframes gezi {
+    0% {
+        transform: translateY(8rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+.center {
+    position: absolute;
+    font-size: 0.32rem;
+    color: #108278;
+    bottom: 4.5rem;
+    left: 2.6rem;
+    width: 100%;
+    animation: zih 7s linear forwards;
+
+
+}
+
+.center>p {
+    margin-top: 0.23rem;
+
+
+}
+
+@keyframes zih {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+
+
+}
+
+.jiantou {
+    width: 100%;
+    position: absolute;
+    bottom: 3.26rem;
+    left: 3.15rem;
+
+
+}
+
+.jiantou>img {
+    width: 0.64rem;
+    height: 0.33rem;
+}
+
+.move2 {
+    animation: jiantou1 5000ms linear infinite;
+    animation-direction: reverse;
+
+
+}
+
+@keyframes jiantou1 {
+    0% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
+
+@keyframes one {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+/* 瞬移 */
+
+.shunyi1 {
+    position: absolute;
+    bottom: 4rem;
+    left: 1.5rem;
+
+}
+
+.shunyi2 {
+    position: absolute;
+    bottom: 6rem;
+    left: 4rem;
+}
+
+.shunyi3 {
+    position: absolute;
+    bottom: 3.5rem;
+    left: 5.5rem;
+}
+
+.shengtian {
+    animation: shengtian 4000ms linear forwards;
+}
+
+.tizi1 {
+    animation: tizi5 4000ms linear forwards;
+}
+
+/* 升天动画 */
+@keyframes shengtian {
+    0% {
+        transform: translateY(-2rem);
+    }
+
+    50% {
+        transform: translateY(-3rem);
+    }
+
+    100% {
+        transform: translateY(-3.9rem);
+    }
+
+}
+
+@keyframes tizi5 {
+    0% {
+        transform: translateY(1rem);
+    }
+
+    50% {
+        transform: translateY(0rem);
+    }
+
+    100% {
+        transform: translateY(-1rem);
+    }
+
+}
+
+/* 背景 */
+.bg1 {
+    animation: bg1 3000ms linear forwards;
+    background: url(../xinjian/bg.jpg);
+
+
+}
+
+@keyframes bg1 {
+    0% {
+        background-position: 0 bottom;
+    }
+
+    100% {
+        background-position: 0 top;
+    }
+}
+
+/* 第三部分 */
+.three {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size: cover;
+    display: none;
+
+}
+
+.top {
+    position: absolute;
+    width: 100%;
+
+
+}
+
+.top5>span {
+    font-size: 0.28rem;
+    color: white;
+    position: absolute;
+    top: 0.96rem;
+    left: 1.16rem;
+}
+
+.top5>.xh {
+    width: 2rem;
+    height: 0.58rem;
+    position: absolute;
+    border: 0.02rem solid wheat;
+    left: 4.6rem;
+    top: 0.82rem;
+    border-radius: 0.25rem;
+}
+
+.top5>.xh>img {
+    width: 0.2rem;
+    height: 0.2rem;
+    position: absolute;
+    left: 0.3rem;
+    top: 0.21rem;
+
+
+}
+
+.top5>.xh>span {
+    font-size: 0.25rem;
+    color: white;
+    position: absolute;
+    left: 0.74rem;
+    top: 0.14rem;
+
+
+
+}
+
+.top5>.p1 {
+    position: absolute;
+    font-size: 0.28rem;
+    top: 1.65rem;
+    left: 1.14rem;
+    color: white;
+}
+
+.top5>.p1>span {
+    font-weight: bold;
+    font-size: 0.5rem;
+    padding-left: 0.1rem;
+}
+
+.top5>.p2 {
+    position: absolute;
+    font-size: 0.26rem;
+    top: 2.59rem;
+    left: 1.14rem;
+    color: white;
+}
+
+.center1 {
+    position: absolute;
+    width: 100%;
+}
+
+
+
+.center1 .bg4 {
+    width: 0.7rem;
+    height: 1rem;
+    position: absolute;
+    top: -0.4rem;
+    left: 0.57rem;
+    z-index: 5;
+}
+
+.center1 .bg5 {
+    width: 0.7rem;
+    height: 1rem;
+    position: absolute;
+    top: -0.5rem;
+    left: 0.3rem;
+    z-index: 5;
+}
+
+.center1 .bg6 {
+    width: 0.7rem;
+    height: 1rem;
+    position: absolute;
+    top: -0.27rem;
+    right: 0.54rem;
+    z-index: 5;
+}
+
+.center1 .bg_1 .p5 {
+    padding: 0.1rem;
+    border: 0.05rem solid #7caed3;
+    background-color: black;
+    opacity: 0.3;
+    border-radius: 0.2rem;
+    position: absolute;
+
+    top: 1rem;
+    left: 0.14rem;
+    font-size: 0.23rem;
+    color: white;
+    z-index: 5;
+}
+
+.center1 .bg_2 .p4 {
+    padding: 0.1rem 0.2rem;
+    border: 0.05rem solid #7caed3;
+    background-color: black;
+    opacity: 0.3;
+    border-radius: 0.2rem;
+    position: absolute;
+    top: 0.88rem;
+    left: -0.15rem;
+    font-size: 0.23rem;
+    color: white;
+    z-index: 5;
+}
+
+.center1 .bg_3 .p6 {
+    padding: 0.1rem;
+    border: 0.05rem solid #7caed3;
+    background-color: black;
+    opacity: 0.3;
+    border-radius: 0.2rem;
+    position: absolute;
+    top: 0.98rem;
+    right: 0.05rem;
+    font-size: 0.23rem;
+    color: white;
+    z-index: 5;
+}
+
+.p7 {
+    position: absolute;
+    width: 100%;
+    font-size: 0.24rem;
+    color: white;
+    top: 12.4rem;
+    left: 0.7rem;
+}
+
+.p7 span:first-child {
+    border: 0.02rem solid white;
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.2rem;
+}
+
+.p7 span:last-child {
+    border: 0.02rem solid white;
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.2rem;
+    position: absolute;
+    left: 4.52rem;
+    top: -0.1rem;
+
+
+
+}
+.p7 img:first-child{
+ 
+    left: 0;
+    position: absolute;
+    width: 0.18rem;
+    height: 0.2rem;
+    z-index: 20;
+    padding: 0.05rem 0.1rem;
+}
+
+
+.bg_1 {
+    width: 2.1rem;
+    height: 2.08rem;
+    background: url(../xinjian/star_box1.png) no-repeat;
+    background-size: cover;
+
+    position: absolute;
+    top: 3.91rem;
+    left: 2.58rem;
+
+}
+
+.bg_2 {
+    background: url(../xinjian/star_box3.png) no-repeat;
+    background-size: cover;
+    width: 1.65rem;
+    height: 1.64rem;
+    position: absolute;
+
+    top: 5.83rem;
+    left: 0.44rem;
+}
+
+.bg_3 {
+    background: url(../xinjian/star_box2.png) no-repeat;
+    background-size: cover;
+    width: 1.82rem;
+    height: 1.82rem;
+    position: absolute;
+    top: 5.21rem;
+    right: 0.28rem;
+
+}
+
+.center1 .bg_2 {
+
+    animation: bj1 2000ms linear;
+}
+
+.center1 .bg_3 {
+    animation: bj2 2000ms linear;
+}
+
+.center1 .bg_1 {
+    animation: bj3 2000ms linear;
+}
+
+@keyframes bj1 {
+    0% {
+        transform: translate(-3rem) rotate(180deg);
+    }
+
+    100% {
+        transform: translate(0) rotate(0);
+    }
+
+
+
+}
+
+@keyframes bj2 {
+    0% {
+        transform: translate(3rem) rotate(180deg);
+    }
+
+    100% {
+        transform: translate(0) rotate(0);
+    }
+
+}
+
+@keyframes bj3 {
+    0% {
+        transform: scale(0);
+        opacity: 0.3;
+    }
+
+    50% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+}
+
